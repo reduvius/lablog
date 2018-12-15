@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    background: url('../../storage/images/backgrounds/nw.jpg') fixed;
+    background: url('/images/bckg1.jpg') fixed;
     position: relative;
     margin: 0;
     padding-bottom: 9rem;
@@ -35,7 +35,7 @@ body {
 
 /* *************************** HEADER STYLE ***************************** */
 header {
-    background: url('../../storage/images/backgrounds/bckg7.jpg') fixed;
+    background: url('/images/bckg2.jpg') fixed;
     /*background-color: #509fb9;*/
     color: white;
     box-shadow: 0px 7px 5px #252e42;
