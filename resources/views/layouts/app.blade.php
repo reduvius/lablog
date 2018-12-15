@@ -88,10 +88,10 @@
                         </div>
                     </div>
                 @else
-                    <a href="/register/get-form">
+                    <a href="/register">
                         <i class='fas fa-user-plus'></i> Sign up
                     </a>
-                    <a href="/login/get-form">
+                    <a href="/login">
                         <i class='fas fa-sign-in-alt'></i> Sign in
                     </a>
                 @endif

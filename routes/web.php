@@ -19,10 +19,10 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/register/get-form', function () {
+Route::get('/register', function () {
     return view('register');
 });
 
-Route::get('/login/get-form', function () {
+Route::get('/login', function () {
     return view('login');
 });

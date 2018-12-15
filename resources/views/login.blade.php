@@ -22,6 +22,7 @@
 
             <form name="login" method="post" action="/login"
                 onsubmit="return validateForm()">
+                @csrf
                 <label for="email">
                     <i class='fas fa-envelope'></i><b> Email</b>
                 </label>
@@ -39,7 +40,7 @@
             </form>
 
             <p id="bt">Don't have an account?
-                <a href="/register/get-form">Sign up</a>.
+                <a href="/register">Sign up.</a>
             </p>
         </div>
     </div>

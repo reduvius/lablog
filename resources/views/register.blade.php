@@ -23,6 +23,7 @@
 
             <form name="reg" method="post" action="/register"
                 onsubmit="return validateForm()">
+                @csrf
                 <label for="name">
                     <i class='fas fa-user'></i><b> Username</b>
                 </label>
@@ -51,7 +52,7 @@
             </form>
 
             <p id="bt">Already have an account?
-                <a href="/login/get-form">Sign in</a>.
+                <a href="/login">Sign in.</a>
             </p>
         </div>
     </div>
